@@ -3,7 +3,7 @@ body {
   font-size: 14px;
 }
 a {
-  color: #005CB8;
+  color: #CB1111;
 }
 a[href] {
   color: #551A8B;
@@ -13,7 +13,14 @@ a[href] {
   color: #29333D;
 }
 .rm-page-ref-tag {
-  color: #CB1111;
+  background-color: #E0E5EB;
+  border-radius: 10px;
+  color: #29333D;
+  font-size: 12px;
+  padding-top: 1px;
+  padding-right: .5em;
+  padding-bottom: 1px;
+  padding-left: .5em;
 }
 .rm-page-ref-brackets {
   /*color: light-grey;*/
@@ -24,15 +31,19 @@ a[href] {
   padding-left: .5px;
 }
 .rm-page-ref-link-color {
-  color: #005CB8;
+  color: #CB1111;
   font-weight: 500;
   /*padding-left: .5px;*/
+}
+.check-container input:checked ~ .checkmark {
+  background-color: #005CB8;
 }
 .check-container {
   top: -7px;
   padding-left: 16px;
 }
 .checkmark {
+  border-radius: 3px;
   height: 14px;
   width: 14px;
 }
@@ -51,4 +62,36 @@ a[href] {
   border-bottom: 1px dashed #ced9e0;
   margin: 0;
   padding: 2px 0;
+}
+
+
+.block-border-left {
+  border-left-color: #E0E5EB;
+}
+
+.block-bullet-view {
+  margin-left: 6px;
+}
+
+span.bp3-icon-standard {
+  margin-top: -1px;
+  color: #005CB8;
+}
+
+.controls .opacity-7 {
+  opacity: 1;
+}
+
+.roam-bullet-closed {
+  background-color: #E0E5EB;
+}
+
+.controls .simple-bullet-outer .simple-bullet-inner {
+  background-color: #A3B3C2;
+  height: 3px;
+  width: 3px;
+}
+
+.controls .roam-bullet-closed .simple-bullet-inner {
+  background-color: #29333D;
 }
