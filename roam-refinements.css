@@ -2,7 +2,7 @@ body {
   font-family:'Inter', sans-serif;
   font-size: 14px;
 }
-a {
+a, a:focus, a:hover {
   color: #CB1111;
 }
 a[href] {
@@ -14,9 +14,9 @@ a[href] {
 }
 .rm-page-ref-tag {
   background-color: #E0E5EB;
-  border-radius: 10px;
+  border-radius: 1em;
   color: #29333D;
-  font-size: 12px;
+  font-size: .9em;
   padding-top: 1px;
   padding-right: .5em;
   padding-bottom: 1px;
@@ -81,7 +81,8 @@ span.bp3-icon-standard {
   opacity: 1;
 }
 
-.roam-bullet-closed {
+.roam-bullet-closed,
+#right-sidebar .roam-bullet-closed {
   background-color: #E0E5EB;
 }
 
@@ -93,4 +94,36 @@ span.bp3-icon-standard {
 
 .controls .roam-bullet-closed .simple-bullet-inner {
   background-color: #29333D;
+}
+
+
+.rm-reference-item {
+  background-color: #FCFCFD;
+  border: 1px dashed #ced9e0;
+  border-radius: 4px;
+  margin-top: 1em;
+  margin-right: 0;
+  padding-top: 1ex;
+  padding-right: 0;
+  padding-bottom: 1ex;
+  padding-left: 0;
+}
+
+
+.hoverparent, .react-resizable {
+  max-width: 100%;
+}
+
+
+#right-sidebar {
+  background-color: #F6F7F9 !important;
+  background-color: #fff !important;
+  border-left: 1px solid #E0E5EB;
+  box-shadow: rgba(0,0,0,.05) 0px 0px 10px;
+}
+
+#right-sidebar .level2 {
+  font-family: Inter, sans-serif;
+  font-weight: 500;
+  xfont-size: 1.5em;
 }
