@@ -17,6 +17,7 @@ a[href] {
   border-radius: 1em;
   color: #29333D;
   font-size: .9em;
+  line-height: 1rem;
   padding-top: 1px;
   padding-right: .5em;
   padding-bottom: 1px;
@@ -53,7 +54,8 @@ a[href] {
   height: 11px;
   width: 6px;
 }
-.roam-block {
+.roam-block,
+.rm-block-input {
   margin-top: 0;
 }
 .rm-block-ref {
@@ -111,6 +113,9 @@ span.bp3-icon-standard {
 
 
 .hoverparent, .react-resizable {
+  max-width: 100%;
+}
+.rm-block-text {
   max-width: 100%;
 }
 
