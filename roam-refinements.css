@@ -36,6 +36,10 @@ a[href] {
   font-weight: 500;
   /*padding-left: .5px;*/
 }
+.rm-page-ref-namespace-color {
+  color: #088E2E;
+  font-weight: 500;
+}
 .check-container input:checked ~ .checkmark {
   background-color: #005CB8;
 }
