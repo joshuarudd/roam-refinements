@@ -1,0 +1,14 @@
+/* Refined embeds for Roam */
+
+.controls ~ .roam-block:not(.rm-block-text) {
+  margin-left: -31px;
+}
+
+.rm-embed-inner-block-hide,
+.rm-embed-inner-block-hide:hover {
+  margin-left: 0;
+}
+
+.rm-embed-container .rm-embed-inner-block-hide > div > .block-bullet-view {
+  margin-left: -6px;
+}
