@@ -1,6 +1,6 @@
 /* Refined embeds for Roam */
 
-.controls ~ .roam-block:not(.rm-block-text) {
+.controls ~ .roam-block:not(.rm-block-text):not(#block-input-ghost) {
   margin-left: -31px;
 }
 
